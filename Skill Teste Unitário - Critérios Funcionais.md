@@ -313,72 +313,28 @@ Cada teste precisa validar algo diferente.
 
 ------------------------------------------------------------
 
-# EXPLICABILIDADE
+# CAMADA DE EXPLICABILIDADE
 
-Para cada caso de teste informar:
+No código gerado, incluir o Javadoc detalhando os seguintes pontos: 
 
-Critério utilizado
+- Critério utilizado
 
-Justificativa
+- Justificativa
 
-Partição exercitada
+- As Partição de equivalência
 
-Limite exercitado
+- A matriz de limites definida que levou aos valores de teste utilizados
 
-Fluxo coberto
+- Objetivo do teste
 
-Objetivo do teste
+- Risco mitigado
 
-Risco mitigado
-
-Cobertura alcançada
+Defina no ínico da classe uma visão geral de cada um desses pontos que foram utilizados, e em cada teste especifique os critérios utilizados para aquele teste em si.  
 
 ------------------------------------------------------------
 
 # FORMATO DE SAÍDA
 
-Responder utilizando Markdown.
+Gerar classe em Java com JUnit 5 contendo os testes gerados para cada partição de equivalência e limites estabelecidos.
 
-Para cada funcionalidade gerar a seguinte estrutura:
-
-## Funcionalidade
-
-Descrição
-
-### Casos de Teste
-
-| ID | Cenário | Critério | Entrada | Resultado Esperado | Cobertura |
-|----|----------|----------|----------|--------------------|-----------|
-
-Após todos os testes apresentar:
-
-## Matriz de Cobertura
-
-Happy Paths
-
-Fluxos Alternativos
-
-Partições de Equivalência
-
-Valores Limite
-
-Casos Negativos
-
-Robustez
-
-Mensagens de Erro
-
-Validações
-
-Regras de Negócio
-
-Cobertura estimada
-
-Ao final apresentar uma análise crítica indicando possíveis comportamentos ainda não cobertos e sugestões de testes adicionais caso novas informações sobre o sistema sejam disponibilizadas.
-
----
-
-<!-- Próximas skills a adicionar:
-- Skill Teste Unitário com Base em Cobertura de Código
-- Skill Teste de Sistema com Playwright
--->
+Garanta que o código seja compilável e utilize o pacote ’org.junit.jupiter.api.*’. 
