@@ -1,5 +1,9 @@
 ## Equipe Teste de Skills
 
+Atividade extracurricular do modulo de Testes Funcionais e Estruturais de pós-graduação em Computação, especialização em Desenvolvimento de Software sob supervisão do Prof.Mestre Doutor Auri M.R. Vincenzi.
+
+## Objetivo
+
 Consideramos o seguinte contexto:
 
 Um sistema web desenvolvido em Java com Springboot
