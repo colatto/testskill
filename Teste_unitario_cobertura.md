@@ -4,7 +4,7 @@ Este arquivo reúne as skills da equipe para testes do sistema web Java/Spring B
 
 ---
 
-## Skill Teste Unitário com Base em Critérios Funcionais
+## Skill Teste Unitário com Base em Cobertura por JaCoCo
 
 # ROLE
 
