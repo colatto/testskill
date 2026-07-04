@@ -89,7 +89,7 @@ Sempre utilizar:
 
 4. Fluxos Alternativos
 
-Além disso aplicar automaticamente quando fizer sentido:
+Além disso aplicar quando fizer sentido:
 
 • Casos Negativos
 
