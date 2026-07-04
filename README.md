@@ -6,7 +6,8 @@ Atividade extracurricular do modulo de Testes Funcionais e Estruturais de pós-g
 
 Consideramos o seguinte contexto:
 
-Um sistema web desenvolvido em Java com Springboot
+- Um sistema web desenvolvido em Java com Springboot. O sistema possui uma bateria de testes unitários implementados com JUnit 5.
+- Os testes unitários atuais cobrem 68% das instruções e 36% das decisões.
 
 ### Atividade:
 
