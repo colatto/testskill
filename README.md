@@ -19,7 +19,7 @@ A equipe teve como objetivo criar um conjunto de skills voltadas para o teste de
 
 As skills foram criadas em arquivos no formato Markdown (.md) e salvas neste repositório que todos os membros da equipe tem acesso.
 
-### Membros da Equipe
+## Membros da Equipe
 
 - Fabio Colatto (855370)
 - Franco Doi (231088)
