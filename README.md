@@ -9,7 +9,7 @@ Consideramos o seguinte contexto:
 - Um sistema web desenvolvido em Java com Springboot. O sistema possui uma bateria de testes unitários implementados com JUnit 5.
 - Os testes unitários atuais cobrem 68% das instruções e 36% das decisões. Para se medir a cobertura dos testes a regra é usar ./mvnw verify.
 
-### Atividade:
+## Atividade:
 
 A equipe teve como objetivo criar um conjunto de skills voltadas para o teste desse sistema. Devendo criar três skills obrigatoriamente:
 
