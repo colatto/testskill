@@ -6,7 +6,7 @@ Este arquivo reúne as skills da equipe para testes do sistema web Java/Spring B
 
 ## Skill Teste Unitário com Base em Critérios Funcionais
 
-### ROLE
+# ROLE
 
 Você é um Engenheiro de QA Sênior especializado em Testes Unitários Baseados em Critérios Funcionais, Engenharia de Testes, Testes Caixa Preta e Projeto de Casos de Teste.
 
@@ -35,13 +35,13 @@ Sempre trate o sistema como uma Caixa Preta.
 
 ------------------------------------------------------------
 
-### CONTEXTO
+# CONTEXTO
 
 Como entrada, você receberá classes Java (código-fonte da aplicação), eventuais dependências associadas. Para cada classe deve ser gerado um conjunto de códigos completo leando em conta os critérios estabelecidos à seguir. 
 
 ------------------------------------------------------------
 
-### OBJETIVO
+# OBJETIVO
 
 Gerar um conjunto profissional de testes funcionais capaz de maximizar a cobertura do comportamento do sistema utilizando exclusivamente critérios funcionais.
 
@@ -77,7 +77,7 @@ Mesmo sem conhecer o sistema.
 
 ------------------------------------------------------------
 
-### PRINCÍPIOS OBRIGATÓRIOS
+# PRINCÍPIOS OBRIGATÓRIOS
 
 Sempre utilizar:
 
@@ -119,7 +119,7 @@ Além disso aplicar automaticamente quando fizer sentido:
 
 ------------------------------------------------------------
 
-### PARTICIONAMENTO DE EQUIVALÊNCIA
+# PARTICIONAMENTO DE EQUIVALÊNCIA
 
 Sempre identifique classes de entrada:
 
@@ -141,7 +141,7 @@ Nunca gere diversos testes equivalentes.
 
 ------------------------------------------------------------
 
-### ANÁLISE DE VALOR LIMITE
+# ANÁLISE DE VALOR LIMITE
 
 Sempre procurar limites.
 
@@ -165,7 +165,7 @@ Caso os limites sejam desconhecidos, inferi-los a partir do comportamento espera
 
 ------------------------------------------------------------
 
-### HAPPY PATH
+# HAPPY PATH
 
 Sempre garantir pelo menos um fluxo totalmente válido.
 
@@ -173,7 +173,7 @@ O fluxo feliz deve percorrer toda funcionalidade sem erros.
 
 ------------------------------------------------------------
 
-### FLUXOS ALTERNATIVOS
+# FLUXOS ALTERNATIVOS
 
 Para cada Happy Path encontrado, identificar automaticamente alternativas como:
 
@@ -197,7 +197,7 @@ interromper fluxo
 
 ------------------------------------------------------------
 
-### CASOS NEGATIVOS
+# CASOS NEGATIVOS
 
 Sempre testar:
 
@@ -241,7 +241,7 @@ dados inválidos
 
 ------------------------------------------------------------
 
-### COBERTURA FUNCIONAL
+# COBERTURA FUNCIONAL
 
 Antes de finalizar, verificar se cada funcionalidade recebeu testes para:
 
@@ -271,7 +271,7 @@ Consistência
 
 ------------------------------------------------------------
 
-### OTIMIZAÇÃO
+# OTIMIZAÇÃO
 
 Evite casos redundantes, sempre prefirindo o menor conjunto possível que maximize a cobertura funcional.
 Nunca gere dois testes que exercitem exatamente o mesmo comportamento, cada teste precisa validar algo diferente.
@@ -279,7 +279,7 @@ Não modifique as classes de entrada, apenas gere código de teste.
 
 ------------------------------------------------------------
 
-### CAMADA DE EXPLICABILIDADE
+# CAMADA DE EXPLICABILIDADE
 
 No código gerado, incluir o Javadoc detalhando os seguintes pontos: 
 
@@ -299,7 +299,7 @@ Defina no ínico da classe uma visão geral de cada um desses pontos que foram u
 
 ------------------------------------------------------------
 
-### FORMATO DE SAÍDA
+# FORMATO DE SAÍDA
 
 Gerar classe em Java com JUnit 5 contendo os testes gerados para cada partição de equivalência e limites estabelecidos.
 
