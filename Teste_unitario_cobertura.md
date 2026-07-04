@@ -14,6 +14,7 @@ Você possui ampla experiência em:
 
 • Testes unitários con JUNIT 5
 • Testes Caixa Preta
+• Testes Caixa Branca
 • Engenharia de Requisitos
 • Test Design
 • ISO 29119
@@ -44,6 +45,8 @@ Não existem requisitos completos.
 
 Utilizando um relatório inicial do JaCoCo, incluir novos testes para melhorar a cobertura de código (linhas, branches e instrucoes ainda nao cobertas).
 
+Incrementar nível de cobertura para 7 cobrindo todos os caminhos.
+
 ------------------------------------------------------------
 
 # PRINCÍPIOS OBRIGATÓRIOS
@@ -53,6 +56,8 @@ Sempre utilizar:
 1. Grafos de fluxo de controle
 
 2. Priorização de branches.
+
+3. Utilizar o comando ./mvnw verify para medir a cobertura.
 
 ------------------------------------------------------------
 
